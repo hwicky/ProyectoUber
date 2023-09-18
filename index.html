@@ -3,30 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página en GitHub</title>
+    <title>Estimación de Viajes de Uber en Nueva York</title>
+    <!-- Agrega aquí enlaces a tus archivos de CSS si es necesario -->
 </head>
 <body>
     <header>
-        <h1>Bienvenido a mi página en GitHub</h1>
+        <h1>Estimación de Viajes de Uber en Nueva York</h1>
     </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-    
+
     <main>
         <section>
-            <h2>Sobre mí</h2>
-            <p>¡Hola! Soy un desarrollador web y estoy emocionado de compartir mi trabajo en GitHub.</p>
+            <h2>Ingresa los detalles de tu viaje</h2>
+            <form id="uberEstimationForm">
+                <label for="pickupLocation">Ubicación de recogida:</label>
+                <input type="text" id="pickupLocation" name="pickupLocation" required>
+
+                <label for="dropoffLocation">Ubicación de destino:</label>
+                <input type="text" id="dropoffLocation" name="dropoffLocation" required>
+
+                <label for="rideType">Tipo de viaje:</label>
+                <select id="rideType" name="rideType">
+                    <option value="UberX">UberX</option>
+                    <option value="UberXL">UberXL</option>
+                    <option value="UberBlack">UberBlack</option>
+                    <!-- Agrega más opciones de tipo de viaje si es necesario -->
+                </select>
+
+                <button type="submit">Calcular Estimación</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Resultados de la Estimación</h2>
+            <div id="estimationResults">
+                <!-- Los resultados estimados se mostrarán aquí -->
+            </div>
         </section>
     </main>
-    
+
     <footer>
-        <p>&copy; 2023 Mi Página en GitHub</p>
+        <p>&copy; 2023 Estimación de Viajes de Uber en Nueva York</p>
     </footer>
+
+    <!-- Agrega aquí enlaces a tus archivos de JavaScript si es necesario -->
 </body>
 </html>
