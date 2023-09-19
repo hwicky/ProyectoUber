@@ -140,10 +140,10 @@ https://github.com/hwicky/ProyectoUber/blob/main/Proyecto%20Uber%20-%20Septiembr
 ### 7.- Contribuciones
 En el proyecto en cuestión, se aceptan todo tipo de contribuciones, ya sea corrección u oprimización del código, aumento del dataset disponible, prueba de nuevos modelos, etc. <br> <br> 
 
-###8.- Autores
+### 8.- Autores
 El presente proyecto fue desarrollado por Manuel Pérez Beltrán y Hans Wicky Torres en el marco de un Proyecto Aplicado para la aprobación de la asignatura de Análitica de Datos del Magíster en Ciencia de Datos para la Innovación de la Universidad de Concepción, Chile. <br> <br> 
 
-###9.- Licencias
+### 9.- Licencias
 
 -	Licencia
 
